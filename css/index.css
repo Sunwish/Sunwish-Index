@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+.imgWXHL{
+    position: absolute;
+    left: -0px;
+    top: -0px;
+    width: 100%;
+}
+
+.imgSZJM{
+    position: absolute;
+    left: -0px;
+    top: -0px;
+    height: 100%;
+}
+
+.imgMatrix{
+    position: absolute;
+    left: -20px;
+    top: -30px;
+    height: 120%;
+}
+
+.imgLowpoly{
+    position: absolute;
+    left: 0px;
+    top: 24px;
+    width: 100%;
+}
+
+.imgUniformBezier{
+    position: absolute;
+    left: -5px;
+    top: 6px;
+    height: 87%;
+}
+
+.imgEasecurve{
+    position: absolute;
+    left: 32px;
+    top: 0px;
+    height: 100%;
+}
+
+.imgAlterful{
+    position: absolute;
+    left: -133px;
+    top: 0px;
+    height: 120%;
+}
+
+.imgMiniTask{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+.imgATP{
+    position: absolute;
+    left: 7px;
+    top: 36px;
+    width: 97%;
+}
+
+.imgTraderHelper{
+    position: absolute;
+    left: 7px;
+    top: 36px;
+    width: 97%;
+}
+
+.top{
+    margin: auto;
+    text-align: center;
+    background-color: #eee;
+    background-image: url("..\\imgs\\top.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-position: center;*/
+    /*|percentage|cover|contain;*/
+    background-size: percentage;
+    height: 390px;
+    overflow: hidden;
+}
+
+.topLink{
+    position: relative;
+    z-index: 999;
+    display: flex;
+    /*background-image: linear-gradient(to right, rgba(255, 0, 0, 0.144) , rgba(0, 0, 0, 0));*/
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.144) , rgba(0, 0, 0, 0));
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    padding-right: 60px;
+    top: 0px;
+}
+
+.topLink a{
+    user-select: none;
+    color: rgba(248, 248, 248, 1);
+    margin: 15 0 10 60;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.topCenter{
+    position: relative;
+    /*background-color: red;*/
+}
+
+.topP{
+    user-select: none;
+    position: fixed;
+    text-align: center;
+    top: 100px;
+    left: -50px;
+    font-size: 250px;
+    font-style: italic;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.02);
+}
+
+.top img{
+    user-select: none;
+    margin-top: 45px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.topName{
+    font-size: 18px;
+    color: #fff;
+    margin: 20px;
+}
+
+.topDescription{
+    font-size: 14px;
+    color: #ccc;
+    margin: 20px;
+}
+
+.ChapterTitle{
+    user-select: none;
+    margin: auto;
+    width: 95%;
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.ChapterTitle p{
+    display: inline-block;
+}
+
+.subTitle{
+    display: inline-block;
+    font-style: italic;
+    font-size: 24px;
+    /*color: #ccc;*/
+}
+
+div > div > p{
+    margin: 40 0 20 15;
+}
+
+.projects .context{
+    /*margin: 0 5 0 5;*/
+    margin: auto;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 95%;
+}
+
+.projectBox{
+    position: relative;
+    /* 屏幕宽小于1440时应变为50% */
+    /* 屏幕宽小于965时应变为100% */
+    width: 33.33%;
+    min-width: 469px;
+    /*max-width: 503px;*/
+    /*padding: 10 15 10 10;*/
+}
+
+@media screen and (max-width: 1500px) { 
+    .projectBox{
+    position: relative;
+    /*屏幕宽小于1440时应变为50%*/
+    width: 50%;
+    min-width: 469px;
+    }
+}
+@media screen and (max-width: 1025px) { 
+    .projectBox{
+        position: relative;
+        /*屏幕宽小于965时应变为100%*/
+        width: 100%;
+        min-width: 469px;
+    }
+}
+
+.projectFrame{
+    position: relative;
+    /*
+    display: block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    */
+}
+
+.project{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    height: 245px;
+    padding: 15px;
+}
+
+.projectContent{
+    position: relative;
+    display: flex;
+    border: solid;
+    border-radius: 10px;
+    /*border-color: royalblue;*/
+    border-color: rgba(204, 204, 204, 0.75);
+    border-width: 1px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 7px 10px #eee;
+}
+
+.imgContainer{
+    position: relative;
+    /*
+    width: 55%;
+    min-width: 246px;
+    max-width: 257px;
+    */
+    width: 255px;
+    height: 100%;
+    margin: 0;
+    background-color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.desContainer{
+    position: relative;
+    left: 0px;
+    width: 45%;
+    /*min-width: 211px;*/
+    height: 100%;
+    /*background-color: #eee;*/
+}
+
+.projectTitle{
+    position: relative;
+    z-index: 2;
+    margin: 15 0 15 20;
+    font-weight: 900;
+    font-size: 22px;
+    color: #333;
+}
+
+.projectDescription{
+    z-index: 2;
+    margin: 5 15 20 20;
+    font-weight: 500;
+    font-size: 14px;
+    color: #777;
+
+}
+
+.projectDetail{
+    /*display: none;*/
+    transform:rotate(17deg);
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: -36px;
+    top: -50px;
+    border-radius: 40%;
+    /*background-color: #ddd;*/
+    cursor: pointer;
+}
+
+.projectDetailButton{
+    /*display: none;*/
+    z-index: 1;
+    position: absolute;
+    left: -42px;
+    bottom: -46px;
+    margin: 0px;
+    font-size: 52px;
+    font-weight: 1000;
+    padding: 4px;
+    border: solid 4px rgba(233, 36, 36, 0.075);
+    /*color: rgba(238, 238, 238, 0.575);*/
+    color: rgba(233, 36, 36, 0.075);
+    /*cursor: pointer;*/
+}
+
+.detailButton{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 20;
+    display: block;
+    width: 80px;
+    height: 24px;
+    border: solid;
+    border-radius: 4px;
+    border-color: royalblue;
+    border-width: 1px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.footer{
+    background-color: #eee;
+    height: 50%;
+    overflow: hidden;
+}
+
+.footer p{
+    user-select: none;
+    position: relative;
+    font-size: 250px;
+    font-style: italic;
+    font-weight: 900;
+    color: #ddd;
+    
+}
