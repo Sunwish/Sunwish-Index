@@ -150,6 +150,7 @@
 
 .ChapterTitle{
     user-select: none;
+    position: relative;
     margin: auto;
     width: 95%;
     display: block;
