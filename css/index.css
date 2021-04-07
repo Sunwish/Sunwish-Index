@@ -333,6 +333,58 @@ div > div > p{
     font-size: 12px;
 }
 
+.longArea{
+    /*width: 100%;
+    overflow: hidden;*/
+}
+
+.designBox{
+    width: 9999px;
+    padding: 9px 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    vertical-align:middle;
+}
+
+.scrollBox{
+    width: 9999px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.scrollContent{
+    -webkit-transition: left 0.5s ease;
+    width: 9999px;
+    padding: 0px 5px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    vertical-align:middle;
+}
+
+.designPicDiv{
+    margin-right: 30px;
+    width: 240px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 7px #ccc;
+}
+
+.designPicDiv img{
+    width: 240px;
+}
+
+.LogoPicDiv{
+    margin-right: 42px;
+    height: 90px;
+}
+
+.LogoPicDiv img{
+    height: 90px;
+}
+
 .footer{
     background-color: #eee;
     height: 50%;

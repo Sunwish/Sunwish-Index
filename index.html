@@ -261,10 +261,139 @@
                     <p>闲时做些设计 /</p>
                     <div class="subTitle">Graphic Design</div>
                 </div>
-                <div class="designBox">
-        
+                <div class="longArea">
+                    <div class="designBox">
+                        <p style="margin-left: 0px; margin-right: 24px; font-size: 24px; font-weight: 600;">Banner</p>
+                        <div class="scrollBox">
+                            <div class="scrollContent" id="scrollBanner" style="left: 0px;">
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner1.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner2.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner3.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner4.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner5.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner6.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner7.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner8.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner9.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner10.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner11.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner12.png"/>
+                                </div>
+                                <div class="designPicDiv">
+                                    <img src="imgs/banner13.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
+                <div class="longArea">
+                    <div class="designBox">
+                        <p style="margin: 0 24px 0px 0px; font-size: 24px; font-weight: 600; line-height: 90px;">Logo</p>
+                        <div class="scrollBox">
+                            <div class="scrollContent" id="scrollLogo" style="left: 0px;">
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/yuiinetlogo.jpg"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/cyslive.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/ttqw.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/clkipgo.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/wxhl.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/HUI-Trader-LOGO.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/yuiigames.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/dprun.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/svsj.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/easecurve.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/kdd.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/sy.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="longArea">
+                    <div class="designBox">
+                        <p style="margin: 0 24px 0px 0px; font-size: 24px; font-weight: 600; line-height: 90px;">Icon</p>
+                        <div class="scrollBox">
+                            <div class="scrollContent" id="scrollIcon" style="left: 0px;">
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/ecr.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/ecp.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/xyt.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/Alterful.jpg"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/blog.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/minitask.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/eprog.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/startree.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/milu.png"/>
+                                </div>
+                                <div class="LogoPicDiv">
+                                    <img src="imgs/logoicon/class11Logo.png"/>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
                 
             <div class="photographs">
@@ -272,7 +401,9 @@
                     <p>尝试捕捉美景 /</p>
                     <div class="subTitle">Photography</div>
                 </div>
-                
+                <div class="photoBox">
+                    
+                </div>
             </div>
             
             <div class="draws">
@@ -287,6 +418,37 @@
             <p>FOOTER</p>
         </div>
     </body>
+
+    <script type="text/javascript">
+        var comtainerImgCount = 999;
+        var index = 1;	/*初始banner图片下标*/
+        window.onload = function()
+        {
+            // 将待移动容器取出备用
+            var scrollBanner = document.getElementById("scrollBanner"); /*banner图片容器*/
+            // 设定轮播时钟
+            //autoMoveInterval = setInterval("autoMove()",3000);
+        }
+
+        function autoMove()	/*自动轮播函数*/
+        {
+            moveContainer(-270)
+        }
+
+        function moveContainer(offset)	/*轮播*/
+        {
+            // 求将要更新的banner容器坐标
+            var newLeft = parseInt(scrollBanner.style.left) + offset;
+
+            // 对坐标值做边缘检验
+            if(newLeft <= 0)
+            {
+                index++;
+                scrollBanner.style.left = newLeft + "px";
+            }
+        }
+    </script>
+
 </html>
 
 
