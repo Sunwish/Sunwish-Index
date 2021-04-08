@@ -80,7 +80,7 @@
     background-image: url("..\\imgs\\top.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     /*background-position: center;*/
     /*|percentage|cover|contain;*/
     background-size: percentage;
@@ -190,7 +190,7 @@ div > div > p{
     top: 67px;
     left: -100px;
     z-index: -1;
-    background-image: linear-gradient(to left, rgba(68,165,249,1), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to left, rgba(68,165,249,1), rgba(255, 255, 255, 0));
 }
 
 .projects .context{
