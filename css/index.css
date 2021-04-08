@@ -149,15 +149,6 @@
     margin: 20px;
 }
 
-.rightTipText{
-    font-size: 16px;
-    color: #ccc;
-    font-weight: 540;
-    position: absolute;
-    right: 15px;
-    top: 12px;
-}
-
 .ChapterTitle{
     user-select: none;
     position: relative;
@@ -170,6 +161,15 @@
 
 .ChapterTitle p{
     display: inline-block;
+}
+
+.rightTipText{
+    font-size: 16px;
+    color: #ccc;
+    font-weight: 540;
+    position: absolute;
+    right: 15px;
+    top: 12px;
 }
 
 .subTitle{
