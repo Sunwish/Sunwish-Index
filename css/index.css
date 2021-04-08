@@ -449,6 +449,88 @@ div > div > p{
     height: 300px;
 }
 
+@media screen and (max-width: 1300px){
+    .PaintPicDiv{
+        height: 240px;
+    }
+    .PaintPicDiv img{
+        height: 240px;
+    }
+    .PhotographyPicDiv{
+        height: 240px;
+    }
+    .PhotographyPicDiv img{
+        height: 240px;
+    }
+    .UIPicDiv{
+        height: 360px;
+    }
+    .UIPicDiv img{
+        height: 360px;
+    }
+    .PostPicDiv{
+        height: 240px;
+    }
+    .PostPicDiv img{
+        height: 240px;
+    }
+    .LogoPicDiv{
+        height: 78px;
+        margin: 12px 15px 8px 15px;
+    }
+    .LogoPicDiv img{
+        height: 78px;
+    }
+    .IconPicDiv{
+        height: 78px;
+        margin: 12px 15px 42px 15px;
+    }
+    .IconPicDiv img{
+        height: 78px;
+    }
+}
+
+@media screen and (max-width: 1025px){
+    .PaintPicDiv{
+        height: 200px;
+    }
+    .PaintPicDiv img{
+        height: 200px;
+    }
+    .PhotographyPicDiv{
+        height: 200px;
+    }
+    .PhotographyPicDiv img{
+        height: 200px;
+    }
+    .UIPicDiv{
+        height: 300px;
+    }
+    .UIPicDiv img{
+        height: 300px;
+    }
+    .PostPicDiv{
+        height: 180px;
+    }
+    .PostPicDiv img{
+        height: 180px;
+    }
+    .LogoPicDiv{
+        height: 60px;
+        margin: 12px 15px 8px 15px;
+    }
+    .LogoPicDiv img{
+        height: 60px;
+    }
+    .IconPicDiv{
+        height: 60px;
+        margin: 12px 15px 42px 15px;
+    }
+    .IconPicDiv img{
+        height: 60px;
+    }
+}
+
 .footer{
     background-color: #eee;
     /*height: 50%;*/
@@ -475,14 +557,6 @@ div > div > p{
     margin: 10px;
     line-height: 8px;
     color: #555;
-    /*
-    user-select: none;
-    position: relative;
-    font-size: 250px;
-    font-style: italic;
-    font-weight: 900;
-    color: #ddd;
-    */
 }
 
 .footerLink{
@@ -512,5 +586,16 @@ div > div > p{
         float: none;
         padding-right: 0px;
         margin-bottom: 18px;
+    }
+    .houkaifa img{
+        user-select: none;
+        width: 48px;
+        margin-bottom: 7px;
+    }
+    .houkaifa p{
+        transform: scale(0.72); /* 通过设置缩放解决字体大小无法设置小于12px */
+    }
+    .footerLink a{
+        font-size: 12px;
     }
 }
