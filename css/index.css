@@ -127,7 +127,7 @@
     font-size: 250px;
     font-style: italic;
     font-weight: 900;
-    color: rgba(255, 255, 255, 0.02);
+    color: rgba(255, 255, 255, 0.025);
 }
 
 .top img{
@@ -176,7 +176,7 @@ div > div > p{
 
 .decLine{
     position: absolute;
-    width: 515px;
+    width: 555px;
     height: 12px;
     top: 67px;
     left: -100px;
@@ -390,13 +390,20 @@ div > div > p{
 }
 
 .LogoPicDiv{
-    margin: 24px;
+    margin: 0px 20px 12px 20px;
     height: 90px;
-    margin-top: 0px;
+}
+
+.LogoPicDiv img{
+    height: 90px;
 }
 
 .IconPicDiv{
-    margin: 0 32px 42px 32px;
+    margin: 0 25px 42px 25px;
+    height: 90px;
+}
+
+.IconPicDiv img{
     height: 90px;
 }
 
@@ -408,8 +415,13 @@ div > div > p{
     box-shadow: 0px 0px 7px #ccc;
 }
 
+.PostPicDiv img{
+    height: 240px;
+    border-radius: 10px;
+}
+
 .UIPicDiv{
-    margin: 0 24px 42px 24px;
+    margin: 0px 24px 0px 24px;
     height: 500px;
     /*transform:rotate(7deg);*/
 }
@@ -419,31 +431,86 @@ div > div > p{
     border-radius: 10px;
 }
 
-.PostPicDiv img{
-    height: 240px;
-    border-radius: 10px;
+.PhotographyPicDiv{
+    margin: 0px 18px 0px 18px;
+    height: 300px;
 }
 
-.IconPicDiv img{
-    height: 90px;
+.PhotographyPicDiv img{
+    height: 300px;
 }
 
-.LogoPicDiv img{
-    height: 90px;
+.PaintPicDiv{
+    margin: 0px 18px 40px 18px;
+    height: 300px;
+}
+
+.PaintPicDiv img{
+    height: 300px;
 }
 
 .footer{
     background-color: #eee;
-    height: 50%;
+    /*height: 50%;*/
     overflow: hidden;
+    position: relative;
 }
 
-.footer p{
+.houkaifa{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding: 50px 50px 20px 50px;
+}
+
+.houkaifa img{
+    user-select: none;
+    width: 64px;
+    margin-bottom: 7px;
+}
+
+.houkaifa p{
+    transform: scale(0.85); /* 通过设置缩放解决字体大小无法设置小于12px */
+    font-size: 12px;
+    margin: 10px;
+    line-height: 8px;
+    color: #555;
+    /*
     user-select: none;
     position: relative;
     font-size: 250px;
     font-style: italic;
     font-weight: 900;
     color: #ddd;
-    
+    */
+}
+
+.footerLink{
+    position: absolute;
+    float: right;
+    bottom: 10px;
+    right: 0px;
+    padding-right: 20px;
+    margin-bottom: 18px;
+}
+
+.footerLink a{
+    user-select: none;
+    color: #ccc;
+    font-weight: 600;
+    margin: 15 20 10 20;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1025px){
+    .footerLink{
+        position: relative;
+        text-align: center;
+        bottom: 10px;
+        float: none;
+        padding-right: 0px;
+        margin-bottom: 18px;
+    }
 }
