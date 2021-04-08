@@ -80,6 +80,7 @@
     background-image: url("..\\imgs\\top.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     /*background-position: center;*/
     /*|percentage|cover|contain;*/
     background-size: percentage;
@@ -173,6 +174,16 @@ div > div > p{
     margin: 40 0 20 15;
 }
 
+.decLine{
+    position: absolute;
+    width: 515px;
+    height: 12px;
+    top: 67px;
+    left: -100px;
+    z-index: -1;
+    background-image: linear-gradient(to left, rgba(68,165,249,1), rgba(0, 0, 0, 0));
+}
+
 .projects .context{
     /*margin: 0 5 0 5;*/
     margin: auto;
@@ -239,6 +250,7 @@ div > div > p{
     /*border-color: royalblue;*/
     border-color: rgba(204, 204, 204, 0.75);
     border-width: 1px;
+    width: 100%;
     background-color: #fff;
     overflow: hidden;
     box-shadow: 0px 7px 10px #eee;
@@ -334,13 +346,14 @@ div > div > p{
 }
 
 .longArea{
-    /*width: 100%;
-    overflow: hidden;*/
+    width: 100%;
+    overflow: hidden;
 }
 
 .designBox{
-    width: 9999px;
+    /*width: 9999px;*/
     padding: 9px 60px;
+    padding-right: 6px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -348,36 +361,70 @@ div > div > p{
 }
 
 .scrollBox{
-    width: 9999px;
-    height: 120px;
+    /*width: 9999px;
+    height: 120px;*/
     overflow: hidden;
 }
 
 .scrollContent{
     -webkit-transition: left 0.5s ease;
-    width: 9999px;
-    padding: 0px 5px;
+    /*width: 9999px;*/
+    padding: 5px;
     position: relative;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     vertical-align:middle;
 }
 
 .designPicDiv{
-    margin-right: 30px;
-    width: 240px;
+    margin: 20px;
+    width: 220px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 7px #ccc;
 }
 
 .designPicDiv img{
-    width: 240px;
+    width: 220px;
 }
 
 .LogoPicDiv{
-    margin-right: 42px;
+    margin: 24px;
+    height: 90px;
+    margin-top: 0px;
+}
+
+.IconPicDiv{
+    margin: 0 32px 42px 32px;
+    height: 90px;
+}
+
+.PostPicDiv{
+    margin: 24px;
+    height: 240px;
+    margin-top: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px #ccc;
+}
+
+.UIPicDiv{
+    margin: 0 24px 42px 24px;
+    height: 500px;
+    /*transform:rotate(7deg);*/
+}
+
+.UIPicDiv img{
+    height: 500px;
+    border-radius: 10px;
+}
+
+.PostPicDiv img{
+    height: 240px;
+    border-radius: 10px;
+}
+
+.IconPicDiv img{
     height: 90px;
 }
 
