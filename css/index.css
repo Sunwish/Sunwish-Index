@@ -77,10 +77,10 @@
     margin: auto;
     text-align: center;
     background-color: #eee;
-    background-image: url("..\\imgs\\top.jpg");
+    /*background-image: url("..\\imgs\\top.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 100%;*/
     /*background-position: center;*/
     /*|percentage|cover|contain;*/
     background-size: percentage;
@@ -130,7 +130,7 @@
     color: rgba(255, 255, 255, 0.025);
 }
 
-.top img{
+.topCenter img{
     user-select: none;
     margin-top: 45px;
     border-radius: 50%;
