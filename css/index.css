@@ -468,6 +468,7 @@ div > div > p{
     user-select: none;
     margin: 0 22px 42px 22px;
     height: 90px;
+    margin-bottom: 12px;
 }
 
 .IconPicDiv img{
