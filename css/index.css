@@ -147,6 +147,7 @@
     font-size: 14px;
     color: #ccc;
     margin: 20px;
+    margin-bottom: 24px;
 }
 
 .ChapterTitle{
@@ -466,27 +467,29 @@ div > div > p{
 
 .IconPicDiv{
     user-select: none;
-    margin: 0 22px 12px 22px;
+    margin: 0 0 12px 0;
     height: 90px;
 }
 
 .IconPicDiv img{
     height: 90px;
+    margin: 0 22px;
 }
 
 .PostPicDiv{
     user-select: none;
-    margin: 24px;
+    /*margin: 24px;*/
     height: 240px;
     margin-top: 0px;
     border-radius: 10px;
-    box-shadow: 0px 0px 7px #ccc;
     margin-bottom: 12px;
 }
 
 .PostPicDiv img{
     height: 240px;
     border-radius: 10px;
+    box-shadow: 0px 0px 7px #ccc;
+    margin: 0 24px;
 }
 
 .UIPicDiv{
@@ -579,7 +582,7 @@ div > div > p{
     }
     .IconPicDiv{
         height: 78px;
-        margin: 12px 15px 12px 15px;
+        margin: 12px 0px 12px 0px;
     }
     .IconPicDiv img{
         height: 78px;
@@ -620,7 +623,7 @@ div > div > p{
     }
     .IconPicDiv{
         height: 60px;
-        margin: 12px 15px 12px 15px;
+        margin: 12px 0px 12px 0px;
     }
     .IconPicDiv img{
         height: 60px;
