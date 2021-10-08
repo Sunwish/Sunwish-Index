@@ -660,10 +660,10 @@ div > div > p{
 
 .footerLink{
     position: absolute;
-    float: right;
+    /*float: right;*/
     bottom: 10px;
-    right: 0px;
-    padding-right: 20px;
+    /*right: 0px;*/
+    /*padding-right: 20px;*/
     margin-bottom: 18px;
 }
 
@@ -675,6 +675,17 @@ div > div > p{
     text-decoration: none;
     cursor: pointer;
     font-size: 14px;
+}
+
+.footerLinkLeft{
+    float: left;
+    padding-left: 20px;
+}
+
+.footerLinkRight{
+    float: right;
+    right: 0px;
+    padding-right: 20px;
 }
 
 @media screen and (max-width: 1025px){
